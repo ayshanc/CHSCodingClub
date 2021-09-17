@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <title>Forms Review</title>
+</head>
+<body>
+    <h1>Participation Form</h1>
+    <p>Please enter in your information. Answers will only be shown to club officers and Mrs.VonHandorf. If you have any questions, please email <em>aysha45458@gmail.com.</em></p>
+    <hr>
+    
+
+    <form action="submission.html" method="">
+        <h2>General Information:</h2>
+        <section class="fullname">
+            <label for="name">First and Last Name:</label>
+            <input type="text" name="name" id="name" required>
+        </section>
+        <hr>
+        
+        <section class="pronouns">
+            <label for="pronoun">Preferred pronouns:</label>
+            <input type="text" name="pronoun" id="pronoun" required>
+        </section>
+        <hr>
+        
+        <section class="schoolemail">
+            <label for="semail">School Email:</label>
+            <input type="text" name="semail" id="semail" required>
+        </section>
+        <hr>
+        
+        <section class="gradelevel" required>
+            <label for="grade">Grade:</label>
+            <select name="grade" id="grade">
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+        </section>
+        <hr>
+        
+        <section class="advisory">
+            <label for="advisor">Advisor:</label>
+            <input type="text" name="advisor" id="advisor" required>
+        </section>
+        <hr>
+        
+        <section class="unita" required>
+            <label for="unit">Unit:</label>
+            <select name="unit" id="unit">
+                <option value="East">East</option>
+                <option value="West">West</option>
+                <option value="South">South</option>
+            </select>
+        </section>
+        <hr>
+        
+        <section class="availibility" required>
+            <span>Will you be attending our introductory meeting on September 28th?</span>
+            <br>
+            <input type="radio" name="avail" id="yes" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" name="avail" id="no" value="no">
+            <label for="no">No</label>
+        </section>
+        <hr>
+        
+        <section class="feeable" required>
+            <span>Are you able to pay $3 for snacks?</span>
+            <br>
+            <input type="radio" name="fee" id="yes" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" name="fee" id="no" value="no">
+            <label for="no">No</label>
+        </section>
+        <hr>
+        
+        <section class="interest" required>
+            <span>Which languages would you most like to learn / focus on? (5 max)</span>
+            <br>
+            <input type="checkbox" name="inter" id="inter" value="pythonl">
+            <label for="pythonl">Python</label>
+            <input type="checkbox" name="inter" id="inter" value="javal">
+            <label for="javal">Java</label>
+            <input type="checkbox" name="inter" id="inter" value="javascriptl">
+            <label for="javascriptl">JavaScript</label>
+            <input type="checkbox" name="inter" id="inter" value="htmll">
+            <label for="htmll">HTML</label>
+            <input type="checkbox" name="inter" id="inter" value="cppl">
+            <label for="cppl">C++</label>
+            <input type="checkbox" name="inter" id="inter" value="chl">
+            <label for="chl">C#</label>
+            <input type="checkbox" name="inter" id="inter" value="swiftl">
+            <label for="swiftl">Swift</label>
+            <input type="checkbox" name="inter" id="inter" value="rl">
+            <label for="rl">R</label>
+        </section>
+        <hr>
+        
+        <section class="firstlanguage" required>
+            <span>Which language would you like to learn / focus on first?</span>
+            <br>
+            <input type="checkbox" name="flang" id="flang" value="pythonl">
+            <label for="pythonl">Python</label>
+            <input type="checkbox" name="flang" id="flang" value="javal">
+            <label for="javal">Java</label>
+            <input type="checkbox" name="flang" id="flang" value="javascriptl">
+            <label for="javascriptl">JavaScript</label>
+            <input type="checkbox" name="flang" id="flang" value="htmll">
+            <label for="htmll">HTML</label>
+            <input type="checkbox" name="flang" id="flang" value="cppl">
+            <label for="cppl">C++</label>
+            <input type="checkbox" name="flang" id="flang" value="chl">
+            <label for="chl">C#</label>
+            <input type="checkbox" name="flang" id="flang" value="swiftl">
+            <label for="swiftl">Swift</label>
+            <input type="checkbox" name="flang" id="flang" value="rl">
+            <label for="rl">R</label>
+        </section>
+        <hr>
+        
+        <section class="extrainfo">
+            <label for="extra">Enter any additional information you'd like us to know:</label>
+            <br>
+            <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
+        </section>
+        <hr>
+        <br>
+    
+    <h2>Coding Experience:</h2>
+    <p>Please select your level of experience in the following coding languages.</p>
+    <ul>
+        <li>None: no experience</li>
+        <li>Basic: know the basic syntax</li>
+        <li>Some: know the basics and have worked with the language (in projects or courses)</li>
+        <li>Moderate: have a decent understanding of the language and know how to use it in context</li>
+        <li>Expert: complete understanding and experience</li>
+    </ul>
+    
+ 
+        <section class="pyth" required>
+            <span>How well do you know <strong>Python</strong>(2/3)?</span>
+            <br>
+            <input type="checkbox" name="python" id="python" value="none">
+            <label for="none">None</label>
+            <input type="checkbox" name="python" id="python" value="basic">
+            <label for="basic">Basic</label>
+            <input type="checkbox" name="python" id="python" value="some">
+            <label for="some">Some</label>
+            <input type="checkbox" name="python" id="python" value="moderate">
+            <label for="moderate">Moderate</label>
+            <input type="checkbox" name="python" id="python" value="expert">
+            <label for="expert">Expert</label>
+        </section>
+        <hr>
+        
+        <section class="jav" required>
+            <span>How well do you know <strong>Java</strong>?</span>
+            <br>
+            <input type="checkbox" name="java" id="java" value="none">
+            <label for="none">None</label>
+            <input type="checkbox" name="java" id="java" value="basic">
+            <label for="basic">Basic</label>
+            <input type="checkbox" name="java" id="java" value="some">
+            <label for="some">Some</label>
+            <input type="checkbox" name="java" id="java" value="moderate">
+            <label for="moderate">Moderate</label>
+            <input type="checkbox" name="java" id="java" value="expert">
+            <label for="expert">Expert</label>
+        </section>
+        <hr>
+        
+        <section class="javascrip" required>
+            <span>How well do you know <strong>JavaScript</strong>?</span>
+            <br>
+            <input type="checkbox" name="javascript" id="javascript" value="none">
+            <label for="none">None</label>
+            <input type="checkbox" name="javascript" id="javascript" value="basic">
+            <label for="basic">Basic</label>
+            <input type="checkbox" name="javascript" id="javascript" value="some">
+            <label for="some">Some</label>
+            <input type="checkbox" name="javascript" id="javascript" value="moderate">
+            <label for="moderate">Moderate</label>
+            <input type="checkbox" name="javascript" id="javascript" value="expert">
+            <label for="expert">Expert</label>
+        </section>
+        <hr>
+        
+        <section class="HTM" required>
+            <span>How well do you know <strong>HTML</strong>?</span>
+            <br>
+            <input type="checkbox" name="html" id="html" value="none">
+            <label for="none">None</label>
+            <input type="checkbox" name="html" id="html" value="basic">
+            <label for="basic">Basic</label>
+            <input type="checkbox" name="html" id="html" value="some">
+            <label for="some">Some</label>
+            <input type="checkbox" name="html" id="html" value="moderate">
+            <label for="moderate">Moderate</label>
+            <input type="checkbox" name="html" id="html" value="expert">
+            <label for="expert">Expert</label>
+        </section>
+        <hr>
+        
+        <section class="cp" required>
+            <span>How well do you know <strong>C++</strong>?</span>
+            <br>
+            <input type="checkbox" name="cpp" id="cpp" value="none">
+            <label for="none">None</label>
+            <input type="checkbox" name="cpp" id="cpp" value="basic">
+            <label for="basic">Basic</label>
+            <input type="checkbox" name="cpp" id="cpp" value="some">
+            <label for="some">Some</label>
+            <input type="checkbox" name="cpp" id="cpp" value="moderate">
+            <label for="moderate">Moderate</label>
+            <input type="checkbox" name="cpp" id="cpp" value="expert">
+            <label for="expert">Expert</label>
+        </section>
+        <hr>
+        
+        <section class="chash" required>
+            <span>How well do you know <strong>C#</strong>?</span>
+            <br>
+            <input type="checkbox" name="ch" id="ch" value="none">
+            <label for="none">None</label>
+            <input type="checkbox" name="ch" id="ch" value="basic">
+            <label for="basic">Basic</label>
+            <input type="checkbox" name="ch" id="ch" value="some">
+            <label for="some">Some</label>
+            <input type="checkbox" name="ch" id="ch" value="moderate">
+            <label for="moderate">Moderate</label>
+            <input type="checkbox" name="ch" id="ch" value="expert">
+            <label for="expert">Expert</label>
+        </section>
+        <hr>
+        
+        <section class="swif" required>
+            <span>How well do you know <strong>Swift</strong>?</span>
+            <br>
+            <input type="checkbox" name="swift" id="swift" value="none">
+            <label for="none">None</label>
+            <input type="checkbox" name="swift" id="swift" value="basic">
+            <label for="basic">Basic</label>
+            <input type="checkbox" name="swift" id="swift" value="some">
+            <label for="some">Some</label>
+            <input type="checkbox" name="swift" id="swift" value="moderate">
+            <label for="moderate">Moderate</label>
+            <input type="checkbox" name="swift" id="swift" value="expert">
+            <label for="expert">Expert</label>
+        </section>
+        <hr>
+        
+        <section class="Rlang" required>
+            <span>How well do you know <strong>R</strong>?</span>
+            <br>
+            <input type="checkbox" name="r" id="r" value="none">
+            <label for="none">None</label>
+            <input type="checkbox" name="r" id="r" value="basic">
+            <label for="basic">Basic</label>
+            <input type="checkbox" name="r" id="r" value="some">
+            <label for="some">Some</label>
+            <input type="checkbox" name="r" id="r" value="moderate">
+            <label for="moderate">Moderate</label>
+            <input type="checkbox" name="r" id="r" value="expert">
+            <label for="expert">Expert</label>
+        </section>
+        <hr>
+        
+        <section class="otherlangs">
+            <label for="other">Enter any additional, unlisted coding languages you have experience in along with your respective experience level:</label>
+            <br>
+            <textarea id="other" name="other" rows="3" cols="30">ex: English-Moderate</textarea>
+        </section>
+        <hr>
+        
+        <section class="submission">
+          <input type="submit" value="Submit">
+        </section>
+        
+    </form>
+</body>
+</html>
