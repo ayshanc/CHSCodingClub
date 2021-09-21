@@ -1,1 +1,1 @@
-# http://CHSCodingClub.github.io
+# https://CHSCodingClub.github.io
