@@ -24,8 +24,7 @@ $otherlanguages = $_POST['other'];
 
 $email_from = 'ayshan1257@gmail.com';
 $email_subject = "New Form Submission";
-$email_body = "New Coding Club Information Participation Form Submission from $name.\n".
-    "pronouns: $pronouns email: $email grade: $grade advisor: $advisor unit: $unit availability: $availability fee: $fee interest: $interest learn: $learn extra: $extra python:$python java: $java javascript: $javascript HTML: $html C++: $cpp C#: $chash swift: $swift R: $r otherlanguages: $otherlanguages.\n".
+$email_body = "New Coding Club Information Participation Form Submission from $name. pronouns: $pronouns email: $email grade: $grade advisor: $advisor unit: $unit availability: $availability fee: $fee interest: $interest learn: $learn extra: $extra python:$python java: $java javascript: $javascript HTML: $html C++: $cpp C#: $chash swift: $swift R: $r otherlanguages: $otherlanguages.\n".
 $to = "ayshan1257@gmail.com";
 $headers = "Form Submission; from: $email_from \r\n";
 
