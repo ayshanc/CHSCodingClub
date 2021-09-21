@@ -14,7 +14,7 @@ $extra = $_POST['extra'];
 $python = $_POST['python'];
 $java = $_POST['java'];
 $javascript = $_POST['javascript'];
-$HTML = $_POST['html'];
+$html = $_POST['html'];
 $cpp = $_POST['cpp'];
 $chash = $_POST['ch'];
 $swift = $_POST['swift'];
@@ -25,7 +25,7 @@ $otherlanguages = $_POST['other'];
 $email_from = 'ayshan1257@gmail.com';
 $email_subject = "New Form Submission";
 $email_body = "New Coding Club Information Participation Form Submission from $name.\n".
-    "pronouns: $pronouns email: $email grade: $grade advisor: $advisor unit: $unit availability: $availability fee: $fee interest: $interest learn: $learn extra: $extra python:$python java: $java javascript: $javascript HTML: $HTML C++: $cpp C#: $chash swift: $swift R: $r otherlanguages: $otherlanguages.\n".
+    "pronouns: $pronouns email: $email grade: $grade advisor: $advisor unit: $unit availability: $availability fee: $fee interest: $interest learn: $learn extra: $extra python:$python java: $java javascript: $javascript HTML: $html C++: $cpp C#: $chash swift: $swift R: $r otherlanguages: $otherlanguages.\n".
 $to = "ayshan1257@gmail.com";
 $headers = "Form Submission; from: $email_from \r\n";
 
