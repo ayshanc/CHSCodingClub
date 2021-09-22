@@ -1,5 +1,10 @@
 <?php
 
+if(!isset($_POST['submit']))
+{
+    echo "Error. You need to submit the form."
+}
+
 $name = $_POST['name'];
 $pronouns = $_POST['pronoun'];
 $email = $_POST['semail'];
@@ -20,6 +25,11 @@ $chash = $_POST['ch'];
 $swift = $_POST['swift'];
 $r = $_POST['r'];
 $otherlanguages = $_POST['other'];
+
+if(empty($name)||empty($pronouns)||empty($email)||empty($grade)||empty($advisor)||empty($unit)||empty($availibility)||empty($fee)||empty($interest)||empty($learn)||empty($python)||empty($java)||empty($javascript)||empty($HTML)||empty($Cpp)||empty($Chash)||empty($Swift)||empty($R))
+{
+    echo "Please fill all fields (Extra Information and Other Languages are OPTIONAL)";
+}
 
 
 $email_from = 'ayshan1257@gmail.com';
