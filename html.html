@@ -6,7 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HTML MEETING</title>
 </head>
-    
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header{
+        background-color: #2660A4;
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+    }
+    nav{
+        background-color: #4E937A;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        padding: 20px;
+        color: white;
+    }
+    nav ul{
+        list-style-type: none;
+        padding: 0;
+    }
+    article {
+        -webkit-flex: 3;
+        -ms-flex: 3;
+        flex: 3;
+        background-color: #F4F6F6;
+        padding: 10px;
+        color: dimgray;
+    }
+}
+</style>
 <body>
     <nav>
         <a href="./index.html">Home Page</a>
@@ -16,8 +51,10 @@
         <a href="./cpp.html">C++</a>
         <a href="./csharp.html">C#</a>
     </nav>
-    
+    <header>
     <h1 style = "text-align:center;">HTML</h1>
+    </header>
+    <article>
     <div id="info">
         <p>The <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML</a> meeting will be held on March 4, 2022.</p>
     </div>
@@ -61,5 +98,6 @@
             <li><a href="https://www.interviewbit.com/blog/html-projects/" target="_blank"></a>Projects with Source Code</li>
         </ul>
     </div>
+        </article>
     </body>
 </html>
